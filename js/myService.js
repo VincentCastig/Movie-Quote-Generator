@@ -191,9 +191,20 @@ angular.module('myApp').service('mySrvc', function($http){
             newQuote.push(val)
           }
         })
-        var random = Math.floor(Math.random() * newQuote.length)
-
-        console.log(newQuote[random])
+        var randomQuote = newQuote[Math.floor(Math.random() * newQuote.length)]
+          var randomMovie = randomQuote.movie
+          function strip(){
+            randomMovie = randomMovie.split(' ')
+            randomMovie.forEach(function(arr, index, array){
+            if(arr[arr.length-1] == '"'){
+              array.splice(0,index + 1)
+              }
+              return arr
+            })
+            return randomMovie.join('-')
+          }
+          randomMovie = strip()
+        console.log(randomMovie)
           return newQuote;
 
       }
