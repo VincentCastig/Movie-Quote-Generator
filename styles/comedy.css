@@ -1,0 +1,9 @@
+
+.button{
+  background: linear-gradient(purple,blue);
+
+}
+
+.foot{
+  display: flex;
+}

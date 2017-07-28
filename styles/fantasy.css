@@ -1,0 +1,7 @@
+.button{
+  background: linear-gradient(blue,green);
+
+}
+.foot{
+  display: flex;
+}

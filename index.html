@@ -3,17 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="style.css">
+
+
   </head>
   <body ng-controller="mainCtrl">
 
-    <my-direct our-photo="newImage"></my-direct>
-    
+    <header>
+            <nav>
+                <ul>
+                    <!--Navigation section, this is where you will put your ui-sref's so you can
+                    naviagte to different views -->
+                    <li><button type="reset" class="button" name="button" ui-sref='home'>Home</button></li>
+                    <li><button type="button" class="button" name="button" ui-sref='action' ng-click=newImage('action')>Action</button></li>
+                    <li><button type="button" class="button" name="button" ui-sref='comedy' ng-click=newImage('comedy')>Comedy</button></li>
+                    <li><button type="submit" class="button" name="button" ui-sref='drama' ng-click=newImage('drama')>Drama</button></li>
+                    <li><button type="button" class="button" name="button" ui-sref='romance' ng-click=newImage('romance')>Romance</button></li>
+                    <li><button type="button" class="button" name="button" ui-sref='thriller' ng-click=newImage('thriller')>Thriller</button></li>
+                    <li><button type="button" class="button" name="button" ui-sref='fantasy' ng-click=newImage('fantasy')>Sci-Fi/Fantasy</button></li>
+                </ul>
+            </nav>
+        </header>
 
+
+
+
+
+<ui-view></ui-view>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+<script src="js/app.js"></script>
+<script src="js/mainCtrl.js"></script>
+<script src="js/myService.js"></script>
 
   </body>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/mainCtrl.js"></script>
-  <script src="js/myService.js"></script>
-  <script src="js/myDirect.js"></script>
 </html>
