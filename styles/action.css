@@ -1,7 +1,11 @@
 body{
-  
+  background-image: url("https://ak5.picdn.net/shutterstock/videos/784939/thumb/1.jpg");
 }
 
+.tweetButton{
+  background-color: yellow; /* Green */
+
+}
 .button{
   background: linear-gradient(red,yellow);
 
@@ -9,4 +13,5 @@ body{
 
 .foot{
   display: flex;
+  color: yellow;
 }

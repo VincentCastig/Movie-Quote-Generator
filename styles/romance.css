@@ -1,3 +1,6 @@
+body{
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/dHnxL5V/curtains-opening-and-closing-stage-theater-cinema-green-screen-4k_bshqe0wf__S0000.jpg");
+}
 
 .button{
   background: linear-gradient(red,violet);
@@ -5,4 +8,10 @@
 }
 .foot{
   display: flex;
+  color: pink;
+}
+
+.tweetButton{
+  background-color: pink; /* Green */
+
 }

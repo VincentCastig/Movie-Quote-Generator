@@ -5,4 +5,10 @@
 }
 .foot{
   display: flex;
+  color: red;
+}
+
+.tweetButton{
+  background-color: red; /* Green */
+
 }

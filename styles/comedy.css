@@ -1,9 +1,15 @@
-
+body{
+  background-image: url('https://i.ytimg.com/vi/v1lM2XmIsqQ/maxresdefault.jpg')
+}
 .button{
   background: linear-gradient(purple,blue);
 
 }
+.tweetButton{
+  background-color: blue; /* Green */
 
+}
 .foot{
   display: flex;
+  color: blue;
 }
