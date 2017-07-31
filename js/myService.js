@@ -17,7 +17,6 @@ this.getQuotes = function(genre){
         var randomMovie = randomQuote.image
 
         self.randomQuote = randomQuote.movie
-        self.audio = randomQuote.audio
         function strip(){
           randomMovie = randomMovie.split(' ')
           randomMovie.forEach(function(arr, index, array){
