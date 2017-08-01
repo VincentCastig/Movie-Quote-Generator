@@ -51,7 +51,7 @@ ul{
 }
 
 .divImage{
-  margin-top: 50px;
+  margin-top: 20px;
   width: 80%;
   background-color: inherit;
   position: relative;
@@ -67,7 +67,6 @@ ul{
   width: 114vh;
   max-width: : 1065px;
   height: 606px;
-  min-height: 606px;
   left: -49%;
   right: -50%;
 
@@ -105,10 +104,36 @@ footer{
   ul{
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+  }
+  .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 10px;
   }
   .movie{
+    margin-top: 28px;
+    max-height: 590px;
+    max-width: 90%;
+  }
+}
 
-    height: 600px;
+@media (max-width: 600px) {
+  .movie{
+    margin-top: 28px;
+    max-height: 590px;
+    max-width: 100%;
+    left: -50%;
+    right: -50%;
+  }
+  .foot{
+    width: 20%;
+    left: 25%;
+    right: 55%;
   }
 }
