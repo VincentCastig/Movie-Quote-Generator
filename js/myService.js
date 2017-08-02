@@ -2,7 +2,7 @@ angular.module('myApp').service('mySrvc', function($http){
 var self = this;
 
 this.getQuotes = function(genre){
-  return $http.get('../quotes.JSON').then(function(res){
+  return $http.get('./quotes.JSON').then(function(res){
 
     self.randomQuote = ''
 
