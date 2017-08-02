@@ -1,4 +1,4 @@
-angular.module('timeApp').directive("showTime", function(){
+angular.module('myApp').directive("showTime", function(){
   return {
       restrict: 'E',
       scope: {
