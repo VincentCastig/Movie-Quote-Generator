@@ -4,34 +4,34 @@ angular.module('myApp',['ui.router'])
         $stateProvider
             .state('home',{
                 url:'/home',
-                templateUrl: "../views/home.html"
+                templateUrl: "./views/home.html"
             })
             .state('action',{
                 url:'/action',
 
-                templateUrl: "../views/action.html"
+                templateUrl: "./views/action.html"
             })
             .state('comedy',{
                 url:'/comedy',
-                templateUrl: "../views/comedy.html"
+                templateUrl: "./views/comedy.html"
 
             })
             .state('drama',{
                 url:'/drama',
-                templateUrl: "../views/drama.html"
+                templateUrl: "./views/drama.html"
             })
             .state('romance',{
                 url:'/romance',
-                templateUrl: "../views/romance.html"
+                templateUrl: "./views/romance.html"
 
             })
             .state('fantasy',{
                 url:'/fantasy',
-                templateUrl: "../views/fantasy.html"
+                templateUrl: "./views/fantasy.html"
             })
             .state('thriller',{
                 url:'/thriller',
-                templateUrl: "../views/thriller.html"
+                templateUrl: "./views/thriller.html"
             })
             ;
 
